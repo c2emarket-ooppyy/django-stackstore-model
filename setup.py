@@ -8,15 +8,14 @@ except Exception as e:
 
 
 setup(
-    name='django-stackstore-model',
-    author="salexkidd",
-    author_email="salexkidd@gmail.com",
-    url="https://github.com/salexkidd/django-stackstore-model",
+    name='django-stackstore-model-ooppyy',
+    author="OoppyY",
+    url="https://github.com/c2emarket-ooppyy/django-stackstore-model",
     description='Django stackstore model',
     long_description_content_type="text/markdown",
     long_description=readme,
     keywords=["django", "model", "versioning"],
-    version='0.1',
+    version='1.0',
     packages=['stackstore'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
