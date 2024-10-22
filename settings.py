@@ -1,3 +1,6 @@
+import os
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'settings')
+
 INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.auth',
@@ -5,7 +8,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'stackstore',
-    'tests.testapps',
+    'testapps',
 )
 
 DATABASES = {
@@ -24,7 +27,7 @@ MIDDLEWARE_CLASSES = [
 
 MIDDLEWARE = MIDDLEWARE_CLASSES
 
-ROOT_URLCONF = 'tests.urls'
+ROOT_URLCONF = 'testapps.urls'
 
 STATIC_URL = "/"
 

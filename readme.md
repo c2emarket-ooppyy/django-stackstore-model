@@ -1,12 +1,12 @@
 Django Staskstore model
 =========================================================================================
 
-[![CircleCI](https://circleci.com/gh/salexkidd/django-stackstore-model.svg?style=svg)](https://circleci.com/gh/salexkidd/django-stackstore-model)
+[updated fork of django-staskstore-model](https://pypi.org/project/django-stackstore-model/)
 
 `django-staskstore-model` is a library that can support model versioning in a minimal amount of steps.
 
-- Support Django 2 and 3
-- Support Python3.7, 3.8 (Maybe 2.7. Not tested)
+- Support Django 3, 4 and 5
+- Support Python3.8, 3.9, 3.10, 3.11 and 3.12
 - Admin extensions are supported.
 
 # Usage
